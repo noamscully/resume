@@ -1,0 +1,181 @@
+% Context: to send to Yale physics labs for a summer position
+
+% Programming xp - Haskell, Python, some website design
+% Inquiries should include a short resume and a description of any experience with coding, data analysis, and previous work either in a research lab or with equipment (i.e., fixing cars or computers, or building robotics for competitions, or anything similar).
+
+% % %
+
+\documentclass[11pt]{article}
+
+% font! the second package determines it
+\usepackage[T1]{fontenc}
+\usepackage[tt=false]{libertine}
+
+\usepackage[libertine]{newtxmath}
+
+\usepackage[varqu, scaled=0.95]{zi4}
+
+\usepackage[margin = 0.8in]{geometry}
+
+\usepackage{microtype}
+
+\usepackage{fancyhdr}
+\pagestyle{empty}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{2mm}
+
+\usepackage{xcolor}
+
+% makes links work and look good
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan
+}
+
+% ***The following all comes from Ziv:
+
+\usepackage{titlesec}
+\usepackage{booktabs}
+% I forget if booktabs is needed for \heavyrulewidth and \lightrulewidth, but you can just put your own values there, too.
+
+\titleformat{\section}[block]
+  {\titlerule[\heavyrulewidth]\vspace{-3pt}\normalfont\bfseries\sffamily\Large}
+  {}{0pt}{}[\vspace{0pt}%{\titlerule[\lightrulewidth]}
+  ]
+
+% I also use this for the spacing
+\titlespacing*{\section}{0pt}{\medskipamount}{\smallskipamount}
+
+% ***The above all came from Ziv:
+
+
+\newcommand{\entry}[3]{
+    \vspace{-.58em}
+    \textbf{#1} \hfill \textit{#2} \\
+    #3 \vspace{0.5em}}
+
+\newcommand{\header}[1]{
+    \vspace{1em}
+    \titlerule[\heavyrulewidth]
+    \vspace{-.1em}
+    \textbf{\Large #1}
+    \vspace{.4em}
+    \hrule
+    \vspace{0.1em}}
+
+% following command exists because letters that reach down, like p, push the horizontal line lower
+\newcommand{\headerp}[1]{
+    \vspace{1em}
+    \hrule
+    \vspace{-.1em}
+    \textbf{\Large #1}
+    \vspace{.15em}
+    \hrule
+    \vspace{.6em}}
+
+\begin{document}
+
+\begin{center}
+
+  \text{\LARGE Noam Scully}
+  
+  \vspace{-.1em}
+  \hspace{1.8em}
+  noam.scully@yale.edu $\, \bullet \,$ \href{https://noamscully.github.io}{https://noamscully.github.io}
+
+\end{center}
+
+\section*{Education}
+\vspace{-0.1em}
+
+\textbf{Yale University} \ \textit{Pursuing Intensive B.S.\ in Mathematics.} GPA: 3.78/4.0 \hfill \textit{New Haven, CT, Class of 2025}
+
+\vspace{-.6mm}
+\textit{Math courses:} linear algebra, real \& complex analysis, vector analysis and manifolds, group theory, Lie theory, measure theory and fourier series, representation theory, Galois theory, commutative algebra, category theory
+\newline \vspace{-3.6mm} \newline
+\textit{Other selected courses:} quantum mechanics I \& II, quantum information and computation, quantum error correction and fault tolerance, introductory mechanics and electricity \& magnetism, algorithms
+
+\vspace{-.4mm}
+\vspace{.1em}
+\textbf{Brookline High School} \ GPA: 4.0/4.0 \hfill \textit{Brookline, MA, Class of 2020}
+\vspace{.4em}
+
+
+\section*{Research}
+\vspace{.58em}
+\vspace{-0.1em}
+
+\entry{Visiting Scholar at Boston Univeristy Condensed Matter Theory}{Summer 2024}{
+  Theoretical condensed matter physics research on using the Wigner-Weyl transform for semiclassical approximations. Mentored by Dr.\ Anatoli Polkovnikov at Boston University.
+}
+
+\entry{Final Research Project for Independent Study in Category Theory}{Spring 2024}{
+	Studied category theory with Dr.\ Pablo Boixeda Alvarez of Yale University, concluding with an original research project establishing a category-theoretic generalization of measures and integration. %\href{https://bit.ly/3AADLfn}{https://bit.ly/3AADLfn}.
+}
+
+\entry{Summer Undergraduate Math Research at Yale (SUMRY REU)}{Summer 2023}{
+  Geometry and dynamics research, studying saddle connections on translation surfaces with Dr.\ Taylor McAdam of Pomona College and Dr.\ Fernando Al Assal of the Max Planck Institute. Paper in preparation. %Preprint: LINK.
+}
+
+\entry{Yale College First-Year Summer Research Fellowship in the Sciences \& Engineering}{Summer 2022}{
+  Astrophysics research on how feedback affects dark matter halos with Dr.\ Daisuke Nagai at Yale University.
+}
+
+\entry{Polymath Jr.\ Research Experience for Undergraduates}{Summer 2021}{
+  Combinatorics research on lexicographically-least infinite square-free words, mentored by Dr.\ Eric Rowland of Hofstra University. Published in The Electronic Journal of Combinatorics: \href{https://doi.org/10.37236/11659}{https://doi.org/10.37236/11659}.
+}
+
+
+\section*{Teaching}
+\vspace{.58em}
+\vspace{-0.1em}
+
+\entry{Yale Poorvu Center for Teaching and Learning -- ULA and Private Tutor}{2023--}{
+  Undergraduate Learning Assistant (ULA) for linear algebra and real analysis, holding office hours and running proof workshops. Private tutor in linear algebra and group theory.
+}
+
+\entry{Art of Problem Solving -- Online Staff Member}{2020-21}{
+  Classroom assistant, message board moderator, and grader for online math classes.
+}
+
+
+\section*{Extracurriculars, Skills, and Service}
+\vspace{0.58em}
+\vspace{-0.1em}
+
+\entry{Coding Experience}{}{
+  Familiar with Python, Haskell, \LaTeX, HTML/CSS, and Mathematica.
+}
+
+\entry{Yale Math Department Student Advisory Committee (SAC)}{2024--}{
+  Volunteer with the Yale Math Department to improve the math major and foster community.
+}
+
+\entry{\textit{The Purple Crayon of Yale} Improv Comedy}{2021--}{
+  Served as director, treasurer, and tour organizer.
+}
+
+\entry{Grace Hopper Search Advisory Committee for Next Head of College}{2024}{
+  Student representative on the search committee for hiring the next Head of Grace Hopper College at Yale.
+}
+
+% no space for phone banking or BHS coaching - or Klezmer!?
+\iffalse
+\entry{Yale Student Klezmer Band}{2021--}{
+   Accordionist and former president.
+}
+
+\entry{Brookline High School -- Math Center Coach and Writing Center Coach}{2018-20}{
+  \vspace{-1em}
+}
+
+\entry{North Carolina Democratic Party}{2020}{
+  Volunteered in a phone bank to educate voters and assist with casting absentee ballots in North Carolina.
+}
+\fi
+
+\end{document}
