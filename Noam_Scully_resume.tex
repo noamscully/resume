@@ -43,7 +43,8 @@
 % I forget if booktabs is needed for \heavyrulewidth and \lightrulewidth, but you can just put your own values there, too.
 
 \titleformat{\section}[block]
-  {\titlerule[\heavyrulewidth]\vspace{-3pt}\normalfont\bfseries\sffamily\Large}
+  {%\titlerule[\heavyrulewidth]
+  \vspace{-3pt}\normalfont\bfseries\sffamily\Large}
   {}{0pt}{}[\vspace{0pt}%{\titlerule[\lightrulewidth]}
   ]
 
@@ -88,81 +89,81 @@
   noam.scully@yale.edu $\, \bullet \,$ \href{https://noamscully.github.io}{https://noamscully.github.io}
 
 \end{center}
+\vspace{-0.3em}
 
 \section*{Education}
+\vspace{.58em}
 \vspace{-0.1em}
 
-\textbf{Yale University} \ \textit{Pursuing Intensive B.S.\ in Mathematics.} GPA: 3.78/4.0 \hfill \textit{New Haven, CT, Class of 2025}
+\entry{The Perimeter Institute for Theoretical Physics and the University of Waterloo}{Waterloo, ON, 2025--}{
+PhD, Physics (Quantum Information). Thesis advisors: Professor Sisi Zhou and Professor David Gosset.
+}
 
-\vspace{-.6mm}
-\textit{Math courses:} linear algebra, real \& complex analysis, vector analysis and manifolds, group theory, Lie theory, measure theory and fourier series, representation theory, Galois theory, commutative algebra, category theory
-\newline \vspace{-3.6mm} \newline
-\textit{Other selected courses:} quantum mechanics I \& II, quantum information and computation, quantum error correction and fault tolerance, introductory mechanics and electricity \& magnetism, algorithms
+\entry{Yale University}{New Haven, CT, 2021--25}{
+B.S., Mathematics
+}
 
-\vspace{-.4mm}
-\vspace{.1em}
-\textbf{Brookline High School} \ GPA: 4.0/4.0 \hfill \textit{Brookline, MA, Class of 2020}
-\vspace{.4em}
+\entry{Brookline High School}{Brookline, MA, 2016--20}{
+\vspace{-\baselineskip}
+}
 
 
-\section*{Research}
+\section*{Research Experiences}
 \vspace{.58em}
 \vspace{-0.1em}
 
 \entry{Visiting Scholar at Boston Univeristy Condensed Matter Theory}{Summer 2024}{
-  Theoretical condensed matter physics research on using the Wigner-Weyl transform for semiclassical approximations. Mentored by Dr.\ Anatoli Polkovnikov at Boston University.
+Theoretical condensed matter physics research on using the Wigner-Weyl transform for semiclassical approximations. Mentored by Professor Anatoli Polkovnikov.
 }
 
 \entry{Final Research Project for Independent Study in Category Theory}{Spring 2024}{
-	Studied category theory with Dr.\ Pablo Boixeda Alvarez of Yale University, concluding with an original research project establishing a category-theoretic generalization of measures and integration. %\href{https://bit.ly/3AADLfn}{https://bit.ly/3AADLfn}.
+Studied category theory at Yale advised by Professor Pablo Boixeda Alvarez, concluding with an original research project establishing a category-theoretic generalization of measures and integration. 
 }
 
-\entry{Summer Undergraduate Math Research at Yale (SUMRY REU)}{Summer 2023}{
-  Geometry and dynamics research, studying saddle connections on translation surfaces with Dr.\ Taylor McAdam of Pomona College and Dr.\ Fernando Al Assal of the Max Planck Institute. Paper in preparation. %Preprint: LINK.
+\entry{Summer Undergraduate Math Research at Yale (SUMRY)}{Summer 2023}{
+Geometry and dynamics research on translation surfaces, mentored by Professor Taylor McAdam and Dr.\ Fernando Al Assal. %Preprint: \href{}{FILL IN}.
 }
 
 \entry{Yale College First-Year Summer Research Fellowship in the Sciences \& Engineering}{Summer 2022}{
-  Astrophysics research on how feedback affects dark matter halos with Dr.\ Daisuke Nagai at Yale University.
+Astrophysics research on how feedback affects dark matter halos. Mentored by Professor Daisuke Nagai.
 }
 
-\entry{Polymath Jr.\ Research Experience for Undergraduates}{Summer 2021}{
-  Combinatorics research on lexicographically-least infinite square-free words, mentored by Dr.\ Eric Rowland of Hofstra University. Published in The Electronic Journal of Combinatorics: \href{https://doi.org/10.37236/11659}{https://doi.org/10.37236/11659}.
-}
-
-
-\section*{Teaching}
-\vspace{.58em}
-\vspace{-0.1em}
-
-\entry{Yale Poorvu Center for Teaching and Learning -- ULA and Private Tutor}{2023--}{
-  Undergraduate Learning Assistant (ULA) for linear algebra and real analysis, holding office hours and running proof workshops. Private tutor in linear algebra and group theory.
-}
-
-\entry{Art of Problem Solving -- Online Staff Member}{2020-21}{
-  Classroom assistant, message board moderator, and grader for online math classes.
+\entry{Polymath Jr Research Experience for Undergraduates}{Summer 2021}{
+Combinatorics research on lexicographically-least infinite square-free words, mentored by Professor Eric Rowland of Hofstra University. Published in The Electronic Journal of Combinatorics: \href{https://doi.org/10.37236/11659}{https://doi.org/10.37236/11659}.
 }
 
 
-\section*{Extracurriculars, Skills, and Service}
+\section*{Service, Teaching, and Awards}
 \vspace{0.58em}
 \vspace{-0.1em}
 
-\entry{Coding Experience}{}{
-  Familiar with Python, Haskell, \LaTeX, HTML/CSS, and Mathematica.
+\entry{Perimeter Institute PhD Residency Program Award}{2025--2030}{
+Supports PhD research advised by faculty at the Perimeter Institute.
 }
 
-\entry{Yale Math Department Student Advisory Committee (SAC)}{2024--}{
-  Volunteer with the Yale Math Department to improve the math major and foster community.
+\entry{Yale Grace Hopper College Daniel Seigel Award}{2025}{
+Recognizes a student who exemplifies a love of learning, a spirit of integrity, and a commitment to kindness.
 }
 
-\entry{\textit{The Purple Crayon of Yale} Improv Comedy}{2021--}{
-  Served as director, treasurer, and tour organizer.
+\entry{Yale Math Department Student Advisory Committee}{2024--25}{
+Elected by the student body to help improve the math major and foster community.
 }
 
 \entry{Grace Hopper Search Advisory Committee for Next Head of College}{2024}{
-  Student representative on the search committee for hiring the next Head of Grace Hopper College at Yale.
+Student representative on the search committee for hiring the next Head of Grace Hopper College at Yale.
 }
 
+\entry{Yale Poorvu Center for Teaching and Learning}{2023--25}{
+Undergraduate Learning Assistant for linear algebra and real analysis courses, holding office hours and running proof workshops. Private tutor in linear algebra and group theory.
+}
+
+\entry{\textit{The Purple Crayon of Yale} Improv Comedy}{2021--25}{
+Performed in comedy shows and served as director, treasurer, and tour organizer.
+}
+
+\entry{Online Staff Member at Art of Problem Solving}{2020--21}{
+Worked as a classroom assistant, message board moderator, and grader for virtual math classes.
+}
 % no space for phone banking or BHS coaching - or Klezmer!?
 \iffalse
 \entry{Yale Student Klezmer Band}{2021--}{
