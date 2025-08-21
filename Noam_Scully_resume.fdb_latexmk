@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1755653508.81557 "Noam_Scully_resume.tex" "Noam_Scully_resume.pdf" "Noam_Scully_resume" 1755653509.34766 0
+["pdflatex"] 1755740713.83072 "Noam_Scully_resume.tex" "Noam_Scully_resume.pdf" "Noam_Scully_resume" 1755740714.44238 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1490131464 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
@@ -78,7 +78,6 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty" 1705352648 5319 2b738d02ce36ada6dcdd9534940db0ee ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo" 1705352648 8464 59874a3b0776c73e2a138b025d8473dd ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty" 1705352648 2894 fc64867f9d198785eabe71a88276a9cb ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/fontaxes/fontaxes.sty" 1595539507 14310 41fdb35c51be792ddf00696848d0cfef ""
@@ -127,9 +126,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1722814397.36949 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1722814325 8221447 dab14ec4fa7a8dd496a0e6a61a4f65c4 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Noam_Scully_resume.aux" 1755653509.25987 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "Noam_Scully_resume.out" 1755653509.13132 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Noam_Scully_resume.tex" 1755653508.56177 5708 2b5c93cc971e1211b78841ed6c35ea1a ""
+  "Noam_Scully_resume.aux" 1755740714.35185 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "Noam_Scully_resume.out" 1755740714.21013 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Noam_Scully_resume.tex" 1755740712.59146 4177 8b234ed3727c26c790ccd18afa924763 ""
   (generated)
   "Noam_Scully_resume.aux"
   "Noam_Scully_resume.log"

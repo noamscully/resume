@@ -1,13 +1,5 @@
-% Context: to send to Yale physics labs for a summer position
-
-% Programming xp - Haskell, Python, some website design
-% Inquiries should include a short resume and a description of any experience with coding, data analysis, and previous work either in a research lab or with equipment (i.e., fixing cars or computers, or building robotics for competitions, or anything similar).
-
-% % %
-
 \documentclass[11pt]{article}
 
-% font! the second package determines it
 \usepackage[T1]{fontenc}
 \usepackage[tt=false]{libertine}
 
@@ -15,7 +7,7 @@
 
 \usepackage[varqu, scaled=0.95]{zi4}
 
-\usepackage[margin = 0.8in]{geometry}
+\usepackage[margin = 0.9in]{geometry}
 
 \usepackage{microtype}
 
@@ -27,7 +19,6 @@
 
 \usepackage{xcolor}
 
-% makes links work and look good
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -36,11 +27,8 @@
     urlcolor=cyan
 }
 
-% ***The following all comes from Ziv:
-
 \usepackage{titlesec}
-\usepackage{booktabs}
-% I forget if booktabs is needed for \heavyrulewidth and \lightrulewidth, but you can just put your own values there, too.
+%\usepackage{booktabs}
 
 \titleformat{\section}[block]
   {%\titlerule[\heavyrulewidth]
@@ -48,35 +36,13 @@
   {}{0pt}{}[\vspace{0pt}%{\titlerule[\lightrulewidth]}
   ]
 
-% I also use this for the spacing
 \titlespacing*{\section}{0pt}{\medskipamount}{\smallskipamount}
-
-% ***The above all came from Ziv:
-
 
 \newcommand{\entry}[3]{
     \vspace{-.58em}
     \textbf{#1} \hfill \textit{#2} \\
     #3 \vspace{0.5em}}
 
-\newcommand{\header}[1]{
-    \vspace{1em}
-    \titlerule[\heavyrulewidth]
-    \vspace{-.1em}
-    \textbf{\Large #1}
-    \vspace{.4em}
-    \hrule
-    \vspace{0.1em}}
-
-% following command exists because letters that reach down, like p, push the horizontal line lower
-\newcommand{\headerp}[1]{
-    \vspace{1em}
-    \hrule
-    \vspace{-.1em}
-    \textbf{\Large #1}
-    \vspace{.15em}
-    \hrule
-    \vspace{.6em}}
 
 \begin{document}
 
@@ -86,7 +52,7 @@
   
   \vspace{-.1em}
   \hspace{1.8em}
-  noam.scully@yale.edu $\, \bullet \,$ \href{https://noamscully.github.io}{https://noamscully.github.io}
+  nscully@uwaterloo.ca $\, \bullet \,$ \href{https://noamscully.github.io}{https://noamscully.github.io}
 
 \end{center}
 \vspace{-0.3em}
@@ -95,7 +61,7 @@
 \vspace{.58em}
 \vspace{-0.1em}
 
-\entry{The Perimeter Institute for Theoretical Physics and the University of Waterloo}{Waterloo, ON, 2025--}{
+\entry{Perimeter Institute for Theoretical Physics \& University of Waterloo}{Waterloo, ON, 2025--}{
 PhD, Physics (Quantum Information). Thesis advisors: Professor Sisi Zhou and Professor David Gosset.
 }
 
@@ -117,11 +83,11 @@ Theoretical condensed matter physics research on using the Wigner-Weyl transform
 }
 
 \entry{Final Research Project for Independent Study in Category Theory}{Spring 2024}{
-Studied category theory at Yale advised by Professor Pablo Boixeda Alvarez, concluding with an original research project establishing a category-theoretic generalization of measures and integration. 
+Studied category theory at Yale advised by Professor Pablo Boixeda Alvarez. Concluded with an original research project establishing a category-theoretic generalization of measures and integration. 
 }
 
 \entry{Summer Undergraduate Math Research at Yale (SUMRY)}{Summer 2023}{
-Geometry and dynamics research on translation surfaces, mentored by Professor Taylor McAdam and Dr.\ Fernando Al Assal. %Preprint: \href{}{FILL IN}.
+Geometry and dynamics research on translation surfaces. Mentored by Professor Taylor McAdam and Dr.\ Fernando Al Assal. %Submitted paper for publication. Preprint: \href{}{FILL IN}.
 }
 
 \entry{Yale College First-Year Summer Research Fellowship in the Sciences \& Engineering}{Summer 2022}{
@@ -129,9 +95,8 @@ Astrophysics research on how feedback affects dark matter halos. Mentored by Pro
 }
 
 \entry{Polymath Jr Research Experience for Undergraduates}{Summer 2021}{
-Combinatorics research on lexicographically-least infinite square-free words, mentored by Professor Eric Rowland of Hofstra University. Published in The Electronic Journal of Combinatorics: \href{https://doi.org/10.37236/11659}{https://doi.org/10.37236/11659}.
+Combinatorics research on infinite square-free words, mentored by Professor Eric Rowland of Hofstra University. Published in The Electronic Journal of Combinatorics: \href{https://doi.org/10.37236/11659}{https://doi.org/10.37236/11659}.
 }
-
 
 \section*{Service, Teaching, and Awards}
 \vspace{0.58em}
@@ -142,11 +107,11 @@ Supports PhD research advised by faculty at the Perimeter Institute.
 }
 
 \entry{Yale Grace Hopper College Daniel Seigel Award}{2025}{
-Recognizes a student who exemplifies a love of learning, a spirit of integrity, and a commitment to kindness.
+For a student who exemplifies a love of learning, a spirit of integrity, and a commitment to kindness.
 }
 
 \entry{Yale Math Department Student Advisory Committee}{2024--25}{
-Elected by the student body to help improve the math major and foster community.
+Elected by the math major student body to improve the major and foster community.
 }
 
 \entry{Grace Hopper Search Advisory Committee for Next Head of College}{2024}{
@@ -164,19 +129,5 @@ Performed in comedy shows and served as director, treasurer, and tour organizer.
 \entry{Online Staff Member at Art of Problem Solving}{2020--21}{
 Worked as a classroom assistant, message board moderator, and grader for virtual math classes.
 }
-% no space for phone banking or BHS coaching - or Klezmer!?
-\iffalse
-\entry{Yale Student Klezmer Band}{2021--}{
-   Accordionist and former president.
-}
-
-\entry{Brookline High School -- Math Center Coach and Writing Center Coach}{2018-20}{
-  \vspace{-1em}
-}
-
-\entry{North Carolina Democratic Party}{2020}{
-  Volunteered in a phone bank to educate voters and assist with casting absentee ballots in North Carolina.
-}
-\fi
 
 \end{document}
